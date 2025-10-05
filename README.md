@@ -285,6 +285,31 @@ curl http://localhost:8080/api/v1/dishes/recommended
 curl http://localhost:8080/
 ```
 
+### 阶段性成果展示
+
+智能摄像头推荐测试程序运行成功！
+
+我们已成功开发并测试了核心的智能推荐流程，演示程序 ./camera_recommendation_test完整展示了从图像采集到个性化推荐的全链路功能：
+
+```bash
+🎥 智能餐厅摄像头推荐测试程序
+=================================
+摄像头设备: /dev/video0
+服务器地址: http://localhost:8080
+
+✅ 服务器连接正常
+✅ 摄像头初始化成功: 640x480
+✅ 智能推荐请求成功
+🔄 处理时间: 7531ms
+
+🍽️ AI推荐菜品:
+• 羊肉萝卜汤 - 秋季夜间温补驱寒，适合青年男性单人夜宵
+• 香煎三文鱼配时蔬 - 富含Omega-3，增强免疫力  
+• 菌菇鸡丝粥 - 清淡易消化，适合夜间温和进补
+
+
+```
+
 ## 📁 项目结构
 
 ```
@@ -627,10 +652,10 @@ grep ERROR wisdom_restaurant.log
 
 ## 📞 联系方式
 
-- **项目维护者**: [Your Name]
-- **邮箱**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **项目链接**: [https://github.com/yourusername/myWisdomRestaurant](https://github.com/yourusername/myWisdomRestaurant)
+- **项目维护者**: [LiuRongBao]
+- **邮箱**: [736964061@qq.com]
+
+- **项目链接**: [https://github.com/liurongbaobao/myWisdomRestaurant](https://github.com/liurongbaobao/myWisdomRestaurant)
 
 ## ⭐ Star History
 
@@ -647,5 +672,6 @@ grep ERROR wisdom_restaurant.log
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/myWisdomRestaurant?style=social)](https://github.com/yourusername/myWisdomRestaurant)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/myWisdomRestaurant?style=social)](https://github.com/yourusername/myWisdomRestaurant)
 [![GitHub watchers](https://img.shields.io/github/watchers/yourusername/myWisdomRestaurant?style=social)](https://github.com/yourusername/myWisdomRestaurant)
+
 
 </div>
